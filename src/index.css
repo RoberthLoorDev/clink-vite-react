@@ -7,3 +7,13 @@ body {
      background: #1c1b20;
      overflow-x: hidden;
 }
+
+.light-cards-section {
+     position: absolute;
+     z-index: -20;
+     width: 684px;
+     height: 267px;
+     border-radius: 158px;
+     background: #19c2a936;
+     filter: blur(70.19999694824219px);
+}

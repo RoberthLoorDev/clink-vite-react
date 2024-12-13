@@ -4,7 +4,7 @@ export default function TableUrlSections() {
      const tableData = [
           {
                date: '10 Nov 2024',
-               description: 'Sorteo Amazon',
+               description: '',
                link: 'clink.vercel.app/lk23',
                clicks: '22 Clicks',
                copyIcon: images.copyIcon,
@@ -64,7 +64,7 @@ export default function TableUrlSections() {
                                    <td className="p-[11px] py-[15px] rounded-l-[30px] pl-[36px] bg-[#232127]">
                                         {date}
                                    </td>
-                                   <td className="p-[11px] bg-[#232127]">{description}</td>
+                                   <td className="p-[11px] bg-[#232127]">{description ? description : '-'}</td>
                                    <td className="p-[11px] bg-[#232127]">{link}</td>
                                    <td className="p-[11px] bg-[#232127] rounded-r-[30px]">{clicks}</td>
                                    <td className="p-[11px]  flex justify-start items-end hover:cursor-pointer hover:scale-150 duration-150">

@@ -1,3 +1,4 @@
+import CardsSection from './sections/CardsSection';
 import HeaderSection from './sections/HeaderSection';
 import IconSection from './sections/IconSection';
 import TableUrlSections from './sections/TableUrlSections';
@@ -8,6 +9,7 @@ function App() {
                <IconSection />
                <HeaderSection />
                <TableUrlSections />
+               <CardsSection />
           </div>
      );
 }
