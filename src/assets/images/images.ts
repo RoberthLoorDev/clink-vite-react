@@ -9,6 +9,10 @@ import shareIcon from './share-icon.svg';
 import adIcon from './ad-icon.svg';
 import BrowserIcon from './browser-icon.svg';
 import backgroundIconsCards from './background-icon-card.svg';
+import instagramIcon from './instagram-icon.svg';
+import linkedinIcon from './linkedin-icon.svg';
+import browserIconFooter from './browser-footer-icon.svg';
+import githubIcon from './github-icon.svg';
 
 export const images = {
      icon: icon,
@@ -22,4 +26,8 @@ export const images = {
      adIcon,
      BrowserIcon,
      backgroundIconsCards,
+     instagramIcon,
+     linkedinIcon,
+     browserIconFooter,
+     githubIcon,
 };
