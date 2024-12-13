@@ -67,10 +67,10 @@ export default function TableUrlSections() {
                                    <td className="p-[11px] bg-[#232127]">{description}</td>
                                    <td className="p-[11px] bg-[#232127]">{link}</td>
                                    <td className="p-[11px] bg-[#232127] rounded-r-[30px]">{clicks}</td>
-                                   <td className="p-[11px]  flex justify-start items-end hover:cursor-pointer">
+                                   <td className="p-[11px]  flex justify-start items-end hover:cursor-pointer hover:scale-150 duration-150">
                                         <img src={images.copyIcon} alt="" className="w-auto h-[24px]" />
                                    </td>
-                                   <td className="p-[11px] hover:cursor-pointer">
+                                   <td className="p-[11px] hover:cursor-pointer hover:scale-150 duration-150">
                                         <img src={images.deteleIcon} alt="" className="w-auto h-[24px] " />
                                    </td>
                               </tr>
