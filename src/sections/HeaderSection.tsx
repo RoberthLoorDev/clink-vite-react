@@ -3,6 +3,7 @@ import { images } from '../assets/images/images';
 export default function HeaderSection() {
      return (
           <div className="flex justify-between mt-[155px] relative">
+               <div className="light-header"></div>
                <div>
                     <p className="uppercase text-[20px] font-medium text-[#ACACAC] ">
                          Acorta y comparte enlaces de forma rápida y sencilla.

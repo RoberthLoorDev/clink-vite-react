@@ -17,3 +17,17 @@ body {
      background: #19c2a936;
      filter: blur(70.19999694824219px);
 }
+
+.light-header {
+     position: absolute;
+     top: 0;
+     left: -180px;
+     width: 550.011px;
+     height: 103.933px;
+     transform: rotate(74.253deg);
+     flex-shrink: 0;
+     opacity: 0.25;
+     background: #19c2aa;
+     filter: blur(70px);
+     z-index: -10;
+}
